@@ -5,5 +5,5 @@ test01ExampleMethod
 	testClass := self classIncludingSelectors: {#exampleMethod}.
 	
 	self 
-		assert: 20 
+		assert: 21 
 		equals: testClass new exampleMethod.
